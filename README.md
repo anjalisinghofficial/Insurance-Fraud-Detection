@@ -42,15 +42,7 @@ This project focuses on detecting fraudulent insurance claims using machine lear
 
 ![Class Balance](class_balance.png)
 
-Shows distribution of fraudulent vs non-fraudulent claims.
-
----
-
-### 📈 Feature Importance
-
-![Feature Importance](feature_importance.png)
-
-Identifies key variables influencing fraud detection.
+Shows the distribution of fraudulent vs non-fraudulent claims.
 
 ---
 
@@ -62,12 +54,10 @@ Indicates strong model performance in distinguishing fraud vs non-fraud.
 
 ---
 
-### 📊 Confusion Matrix
+### ⚖️ Threshold Analysis  
+![Threshold](threshold_plot.png)
 
-![Confusion Matrix](confusion_matrix.png)
-
-Shows model accuracy in predicting correct classes.
-
+Optimal cutoff (~0.4–0.5) balances sensitivity and specificity for better fraud detection.
 ---
 
 ## 🛠️ Tech Stack
